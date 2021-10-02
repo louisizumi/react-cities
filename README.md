@@ -1,11 +1,21 @@
-# redux-boilerplate
+### Wagon Cities
 
-Simple React + Redux starter with the following config:
+The goal of this challenge was to create a React app that could display an image of the selected Le Wagon office.
+This was my first time using Redux to store the app state.
 
-- React, ReactDOM
-- Redux, React-Redux
-- Webpack 3
-- Babel with es2015 and react presets
-- Bootstrap (css only, loaded from a cdn in `index.html`)
-- work with `.js` or `.jsx` files
-- main `application.scss` stylesheet is imported in `index.js` as a module to enjoy hot reloading
+Here's how it looks:
+![gif](./wagon-cities.gif)
+
+#### 1. Setup
+
+The challenge used the Le Wagon [Redux boilerplate](https://github.com/lewagon/redux-boilerplate):
+
+#### 2. Features
+
+* When a user selects a city, an image is displayed of that city's office.
+
+#### 3. Potential
+
+* Add :hover styling to cities when the user hovers over a city
+* Add styling for a selected city
+* Animate the images coming in and out of the screen

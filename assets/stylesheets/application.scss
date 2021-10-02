@@ -1,7 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Helvetica;
+  color: white;
+  background-color: black;
 }
+
 .app {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  display: flex;
+  height: 100vh;
+  overflow-x: hidden;
+
+  .cities {
+    width: 30%;
+    overflow-y: scroll;
+  }
+
+  .active-city {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+
+    p {
+      margin-top: 16px;
+    }
+
+    &__details {
+      box-sizing: border-box;
+      padding: 16px;
+      width: 100%;
+      height: 80px;
+    }
+
+    img {
+      width: 100%;
+      height: calc(100% - 80px);
+      object-position: center;
+      object-fit: cover;
+    }
+  }
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid white;
+  height: 80px;
+  cursor: pointer;
 }

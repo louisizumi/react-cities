@@ -1,7 +1,7 @@
 ### Wagon Cities
 
 The goal of this challenge was to create a React app that could display an image of the selected Le Wagon office.
-This was my first time using Redux to store the app state.
+The app uses Redux to store the app state.
 
 Here's how it looks:
 ![gif](./wagon-cities.gif)

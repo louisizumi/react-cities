@@ -13,9 +13,3 @@ The challenge used the Le Wagon [Redux boilerplate](https://github.com/lewagon/r
 #### 2. Features
 
 * When a user selects a city, an image is displayed of that city's office.
-
-#### 3. Potential
-
-* Add :hover styling to cities when the user hovers over a city
-* Add styling for a selected city
-* Animate the images coming in and out of the screen

@@ -52,4 +52,8 @@ body {
   border-top: 1px solid white;
   height: 80px;
   cursor: pointer;
+
+  &:hover {
+    background-color: #222;
+  }
 }
